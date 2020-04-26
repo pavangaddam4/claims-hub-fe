@@ -5,12 +5,12 @@ import { Button } from 'antd';
 
 
 const insuredLogin = () => {
-  window.location.href = process.env.MY_CLAIMS_URL_INSURED
+  window.location.href = 'https://myclaimshub.stateauto.com'
 }
 
 
 const externalLogin = () => {
-  window.location.href = process.env.MY_CLAIMS_URL_EXTERNAL
+  window.location.href = 'https://myclaimshub.stateauto.com/getting-started'
 }
 
 function App() {
