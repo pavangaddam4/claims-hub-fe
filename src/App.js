@@ -18,9 +18,9 @@ function App() {
     <div>
       <div class='AppHeader'> <span class='title'>State Auto Insurance</span> </div>
       <div class='btnLinkDiv'>
-          <div class='btn' onClick={() => insuredLogin()}> <span class='btnTitle'>Insured Login</span> </div>
+          <div class='btn' onClick={() => insuredLogin()}> <span class='btnTitle'>Insured - Login</span> </div>
           <div>&nbsp;</div>
-          <div class='btn' onClick={() => externalLogin()}> <span class='btnTitle'>External Login</span> </div>
+          <div class='btn' onClick={() => externalLogin()}> <span class='btnTitle'>External - Login</span> </div>
       </div>
     </div>
   );
